@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "start": "webpack -p && http-server ./public $PORT -c 0",
-    "watch": "webpack-dev-server -d",
+    "watch": "webpack-dev-server -d"
   },
   "keywords": [],
   "author": "",
