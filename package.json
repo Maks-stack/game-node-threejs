@@ -8,7 +8,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "webpack": "^2.4.1",
     "http-server": "^0.10.0",
     "three": "^0.85.2",
@@ -22,7 +22,7 @@
     "eslint-plugin-import": "^2.2.0",
     "style-loader": "^0.17.0"
   },
-  "dependencies": {
+  "devDependencies": {
     "webpack-dev-server": "^2.4.4"
   }
 }
