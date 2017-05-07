@@ -1,6 +1,6 @@
 import "./css/main.css"
-import "./components/game"
+import Game from "./game"
 
-const name = "max"
+const game = new Game()
 
-setTimeout(() => console.log(`hello from ${name}`), 300)
+console.log(game)

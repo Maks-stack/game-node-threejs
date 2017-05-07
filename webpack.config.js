@@ -26,12 +26,13 @@ module.exports = {
       {
         test: /\.css$/,
         exclude: /node_modules/,
-        loader: "css-loader",
+        loader: "style-loader!css-loader",
       },
     ],
   },
   devServer: {
     contentBase: publicPath,
     port: 5000
-  }
+  },
+  devtool: "source-map"
 }
