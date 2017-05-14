@@ -1,6 +1,6 @@
-import "./css/main.css"
-import Game from "./game"
+import P5 from "p5"
+import Sketch from "./sketch"
 
-const game = new Game()
+const newSketch = new P5(Sketch)
 
-console.log(game)
+console.log(newSketch)
